@@ -1,0 +1,10 @@
+board = []
+
+for i in range(5):
+    i = ['O'] * 5
+    board.append(i)
+
+def print_board(board):
+    for row in board:
+        ''.join(row)
+        print(board)
